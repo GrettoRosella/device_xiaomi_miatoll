@@ -12,8 +12,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    device/xiaomi/sm6250-common
+    $(LOCAL_PATH)
 
 # Init scripts
 PRODUCT_COPY_FILES += \
