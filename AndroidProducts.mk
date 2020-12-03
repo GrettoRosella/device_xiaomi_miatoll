@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The Project-Xtended
+# Copyright (C) 2020 RevengeOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_miatoll.mk
+    $(LOCAL_DIR)/revengeos_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_miatoll-user \
-    xtended_miatoll-userdebug \
-    xtended_miatoll-eng
+    revengeos_miatoll-user \
+    revengeos_miatoll-userdebug \
+    revengeos_miatoll-eng
