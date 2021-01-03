@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The RevengeOS
+# Copyright (C) 2020 The NusantaraROM Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,17 +7,15 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common revengeos stuff
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common NusantaraROM stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+NAD_BUILD_TYPE := OFFICIAL
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official
-REVENGEOS_BUILDTYPE := OFFICIAL
-
 # Device identifier
-PRODUCT_NAME := revengeos_miatoll
+PRODUCT_NAME := nad_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250

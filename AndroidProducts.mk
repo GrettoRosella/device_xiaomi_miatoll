@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 RevengeOS
+# Copyright (C) 2020 NusantaraROM Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_miatoll.mk
+    $(LOCAL_DIR)/nad_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_miatoll-user \
-    revengeos_miatoll-userdebug \
-    revengeos_miatoll-eng
+    nad_miatoll-user \
+    nad_miatoll-userdebug \
+    nad_miatoll-eng
