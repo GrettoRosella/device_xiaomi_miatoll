@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_miatoll.mk
+    $(LOCAL_DIR)/dot_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_miatoll-user \
-    revengeos_miatoll-userdebug \
-    revengeos_miatoll-eng
+    dot_miatoll-user \
+    dot_miatoll-userdebug \
+    dot_miatoll-eng
